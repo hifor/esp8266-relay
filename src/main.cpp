@@ -70,7 +70,6 @@ void setup(void){
   Serial.begin(115200);
 
   // 设置多个可连接的wifi账号密码，进行循环连接，连接成功后结束循环
-  wifiMulti.addAP("Center_5L", "qzzg_in_6413");
   wifiMulti.addAP("wifi1", "xxxxxxxx");
   wifiMulti.addAP("wifi2", "xxxxxxxx");
 
